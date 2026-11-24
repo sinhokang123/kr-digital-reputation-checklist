@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sinhokang123.github.io/kr-digital-reputation-checklist/sitemap.xml

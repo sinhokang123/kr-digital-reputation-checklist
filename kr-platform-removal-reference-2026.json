@@ -1,0 +1,97 @@
+{
+  "dataset": "Korea Online Content Removal & Digital Reputation Reference Matrix (2026)",
+  "license": "CC BY 4.0",
+  "publisher": {
+    "name": "어바웃어스 (AboutUs)",
+    "representative": "강신영",
+    "business_registration_number": "311-11-53892",
+    "address": "경기도 남양주시 다산동 6250 현대테라타워 DIMC B동 06-0036",
+    "phone": "010-6432-8291",
+    "email": "intake@aboutusagency.com",
+    "url": "https://www.aboutusforyou.com/"
+  },
+  "compliance_notice": "본 자료는 공개된 플랫폼 정책 및 대한민국 법령상 일반 절차를 정리한 참고 문서이며 법률 자문이 아닙니다. 최종 삭제·차단 여부는 각 플랫폼과 검색엔진이 독립적으로 결정합니다.",
+  "platform_count": 8,
+  "platforms": [
+    {
+      "platform_id": "dcinside",
+      "platform_name_ko": "디시인사이드 (DCInside)",
+      "jurisdiction": "KR",
+      "official_basis": "정보통신망법 제44조의2 권리침해 신고(임시조치) / 고객센터 게시물 삭제 요청",
+      "primary_targets": "명예훼손·사생활 침해·개인정보 노출·비회원(유동 IP) 및 탈퇴 계정 과거글",
+      "required_evidence": "PC 원본 URL(갤러리 ID·글번호), 본문·댓글 캡처, 권리침해 소명서, 본인 확인 자료",
+      "search_cache_followup": "원문 404 삭제 확인 후 구글 오래된 콘텐츠 삭제 요청 및 네이버 검색 반영 점검",
+      "official_guide_url": "https://www.aboutusforyou.com/%EB%94%94%EC%8B%9C%EC%9D%B8%EC%82%AC%EC%9D%B4%EB%93%9C-%EA%B2%8C%EC%8B%9C%EA%B8%80-%EC%82%AD%EC%A0%9C"
+    },
+    {
+      "platform_id": "google-search",
+      "platform_name_ko": "구글 검색결과 (Google Search)",
+      "jurisdiction": "Global",
+      "official_basis": "오래된 콘텐츠 삭제 요청(Outdated Content) / 개인정보·민감정보 검색결과 삭제 정책 / 법적 삭제 요청",
+      "primary_targets": "삭제된 원문의 잔존 스니펫·제목·썸네일, 무단 노출된 개인정보·연락처·신분증 정보",
+      "required_evidence": "원문 HTTP 404/410 상태 또는 수정 확인, 노출 검색어·결과 URL·스크린샷",
+      "search_cache_followup": "Google Search Console / Refresh Outdated Content 처리 상태 추적 및 미러 URL 분리 점검",
+      "official_guide_url": "https://www.aboutusforyou.com/%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC-%EC%82%AD%EC%A0%9C"
+    },
+    {
+      "platform_id": "naver-search",
+      "platform_name_ko": "네이버 (블로그·카페·지식iN·검색)",
+      "jurisdiction": "KR",
+      "official_basis": "네이버 권리보호센터(게시중단 요청 서비스) / 정보통신망법 제44조의2 임시조치",
+      "primary_targets": "블로그·카페 비방 게시물, 허위 리뷰, 개인정보 노출 글, 삭제 후 검색 잔존 스니펫",
+      "required_evidence": "정확한 게시물 URL, 침해 문구 특정, 권리 소명 자료 및 본인(또는 위임) 확인 서류",
+      "search_cache_followup": "임시조치 30일 경과 여부 확인 및 네이버 검색결과 캐시 반영 점검",
+      "official_guide_url": "https://www.aboutusforyou.com/%EA%B2%80%EC%83%89%EA%B2%B0%EA%B3%BC-%EC%82%AD%EC%A0%9C"
+    },
+    {
+      "platform_id": "daum-kakao",
+      "platform_name_ko": "다음·카카오 (카페·티스토리·검색)",
+      "jurisdiction": "KR",
+      "official_basis": "카카오 권리침해신고센터 / 정보통신망법 임시조치 및 개인정보 노출 신고",
+      "primary_targets": "다음 카페·티스토리 게시물, 포털 검색 스니펫, 과거 작성글 및 비방성 게시물",
+      "required_evidence": "원문 URL, 침해 내용 캡처, 신분·권리 증빙 서류",
+      "search_cache_followup": "원문 차단 후 다음·구글·네이버 검색 색인 잔존 여부 교차 검증",
+      "official_guide_url": "https://www.aboutusforyou.com/%EB%94%94%EC%A7%80%ED%84%B8%EC%9E%A5%EC%9D%98%EC%82%AC"
+    },
+    {
+      "platform_id": "blind",
+      "platform_name_ko": "블라인드 (TeamBlind)",
+      "jurisdiction": "Global / KR",
+      "official_basis": "플랫폼 커뮤니티 가이드라인 위반 신고 / 명예훼손·허위사실·기업 기밀 유출 권리침해 신고",
+      "primary_targets": "기업·임원·재직자 대상 허위사실 유포, 실명 거론 비방, 개인정보 특정 게시물",
+      "required_evidence": "웹/앱 공유 URL, 게시 시각·본문·댓글 증거, 사실관계 소명 자료(법인·임원 증빙 포함)",
+      "search_cache_followup": "외부 커뮤니티 펌글·아카이브 복사본 및 구글 검색 스니펫 동시 점검",
+      "official_guide_url": "https://www.aboutusforyou.com/business"
+    },
+    {
+      "platform_id": "youtube",
+      "platform_name_ko": "유튜브 (YouTube)",
+      "jurisdiction": "Global",
+      "official_basis": "개인정보 침해 신고(Privacy Complaint) / 명예훼손·괴롭힘 정책 신고 / 저작권(DMCA)",
+      "primary_targets": "초상·음성·개인정보 무단 노출 영상, 허위사실 기반 비방 영상 및 쇼츠",
+      "required_evidence": "영상 URL, 침해 구간 타임스탬프(분:초), 식별 근거 및 저작권·권리 증빙",
+      "search_cache_followup": "썸네일 캐시 및 2차 재업로드(쇼츠·클립) 모니터링",
+      "official_guide_url": "https://www.aboutusforyou.com/%EC%98%A8%EB%9D%BC%EC%9D%B8-%ED%8F%89%ED%8C%90-%ED%9A%8C%EB%B3%B5"
+    },
+    {
+      "platform_id": "instagram",
+      "platform_name_ko": "인스타그램 (Instagram / Meta)",
+      "jurisdiction": "Global",
+      "official_basis": "사칭 계정 신고 / 개인정보·괴롭힘·저작권(지식재산권) 공식 신고 폼",
+      "primary_targets": "사칭 계정, 무단 사진·릴스 유포, 악성 태그·비방 게시물",
+      "required_evidence": "계정 핸들·게시물 퍼머링크, 원본 저작물 또는 본인·브랜드 권리 증빙",
+      "search_cache_followup": "외부 미러 뷰어 사이트 및 구글 이미지 캐시 잔존 정리",
+      "official_guide_url": "https://www.aboutusforyou.com/%EC%98%A8%EB%9D%BC%EC%9D%B8-%ED%8F%89%ED%8C%90-%ED%9A%8C%EB%B3%B5"
+    },
+    {
+      "platform_id": "x-twitter",
+      "platform_name_ko": "X (구 트위터)",
+      "jurisdiction": "Global",
+      "official_basis": "개인정보 무단 게시(Private Information Policy) / 사칭 / 비동의 미디어 / DMCA 신고",
+      "primary_targets": "신상 유포 트윗, 사칭 계정, 무단 복제 미디어 및 인용 확산 게시물",
+      "required_evidence": "트윗 고유 ID URL, 계정 핸들, 침해 유형별 공식 헬프센터 접수 근거",
+      "search_cache_followup": "리트윗·인용 트윗 및 외부 아카이브·검색 스니펫 교차 점검",
+      "official_guide_url": "https://www.aboutusforyou.com/%EB%94%94%EC%A7%80%ED%84%B8%EC%9E%A5%EC%9D%98%EC%82%AC"
+    }
+  ]
+}
